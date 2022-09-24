@@ -1,0 +1,128 @@
+.e-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fcfcfc !important;
+}
+.e-left {
+  position: absolute;
+  width: 35%;
+  height: 775.69px;
+  left: calc(50% - 440px / 2 - 366px);
+}
+.eName {
+  position: absolute;
+  width: 333px;
+  height: 37px;
+  left: 240px;
+  top: 194px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  display: flex;
+  align-items: center;
+  color: #240d57;
+}
+.by {
+  position: relative;
+  margin-top: 17px;
+}
+.eBy {
+  position: absolute;
+  width: 155px;
+  height: 15px;
+  left: 240px;
+  top: 248px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #828282;
+}
+.dates {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  left: 248px;
+  top: 343px;
+}
+.start {
+  height: 21px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #240d57;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0;
+}
+.end {
+  margin: 0;
+  width: 253px;
+  height: 21px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4f4f4f;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.add {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 417px;
+  left: 248px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.streetLabel {
+  height: 21px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #240d57;
+}
+.street {
+  width: 196px;
+  height: 21px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4f4f4f;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.image {
+  border: 1px solid red;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  left: 772px;
+  top: 184px;
+  border-radius: 0px;
+}
